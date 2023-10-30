@@ -42,7 +42,6 @@ void tokeniseRecord(const char *input, const char *delimiter,
 }
 
 FITNESS_DATA information[20000];
-
 FILE *open_file(char filename[], char mode[]) {
     FILE *file = fopen(filename, mode);
     if (file == NULL) {
