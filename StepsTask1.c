@@ -79,7 +79,9 @@ int main() {
     printf("Number of records in file: %d\n", count);
 
     for (int i = 0; i <3; i++) {
-        printf("%s/%s/%d\n", information[i].date, information[i].time, information[i].steps);
+        printf("%s/", information[i].date);
+        printf("%s/", information[i].time);
+        printf("%d\n", information[i].steps);
     }
 
     return 0;
